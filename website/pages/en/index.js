@@ -64,7 +64,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
+            <Button href="#try">Projects</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection>
@@ -96,8 +96,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>About</h2>
+        <MarkdownBlock>I'm a Year 2 Computer Engineering student in the National University of Singapore. </MarkdownBlock>
       </div>
     );
 
@@ -106,12 +106,15 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+              '• Level of achievement: Artemis <br>' +
+              '• Collaborated in team of 2 to develop a web-based 3D scene rendering engine <br>' +
+              '• UI and UX development (Landing Page & Login Page) <br>' +
+              '• Gained programming experience and upgraded technical skills <br>' +
+              '• Self-learning skills <br>' +
+              '• Programming: HTML5, JavaScript and CSS',
+            image: `${baseUrl}img/project_leapengine_cut.jpg`,
+            imageAlign: 'right',
+            title: 'Project: Leap Engine',
           },
         ]}
       </Block>
@@ -122,10 +125,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
+              '• FPGA development using Fast Fourier Transformation to detect voice frequency <br> • Audio and volume detection and graphic output <br> • Maze Game development of display and user input <br>• Programming: Verilog',
+            image: `${baseUrl}img/project_ee.jpg`,
+            imageAlign: 'left',
+            title: 'Project: Verilog Program written for FPGA board',
           },
         ]}
       </Block>
@@ -136,10 +139,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+              ' ',
+            image: `${baseUrl}img/profile.jpg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'About Me',
           },
         ]}
       </Block>
@@ -149,16 +152,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'The National University of Singapore (NUS) is the national research university of Singapore. Founded in 1905 as the Straits Settlements and Federated Malay States Government Medical School, NUS is the oldest higher education institution in Singapore. It is consistently ranked within the top 20 universities in the world and is considered to be the best university in the Asia-Pacific. NUS is a comprehensive research university, offering a wide range of disciplines, including the sciences, medicine and dentistry, design and environment, law, arts and social sciences, engineering, business, computing and music at both the undergraduate and postgraduate levels.',
+            image: `${baseUrl}img/nus_logo.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'National University of Singapore',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Temasek Junior College (TJC) (Chinese: 淡马锡初级学院; pinyin: Dànmǎxī chūjí xuéyuàn) is a Junior College located on the eastern side of Singapore that also offers a 6 years Integrated Programme along with the traditional 2 year GCE Advanced Level curriculum.',
+            image: `${baseUrl}img/tjc_logo.png`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Temasek Junior College',
           },
         ]}
       </Block>

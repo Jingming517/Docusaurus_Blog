@@ -21,25 +21,25 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'Hello, I\'m Jingming.', // Title for your website.
+  tagline: 'I\'m a software engineering student at NUS.',
+  url: 'https://www.liujingming.site', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'Docusaurus_Blog',
+  organizationName: 'Jingming517',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'doc1', label: 'Profile'},
+    {doc: 'doc4', label: 'Github'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
@@ -54,8 +54,10 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#73a00b',
-    secondaryColor: '#507007',
+    //primaryColor: '#6f6b01',
+    primaryColor: '#25c2a0',
+    
+    secondaryColor: '#4d4a00',
   },
 
   /* Custom fonts for website */
@@ -73,7 +75,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Jingming517`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
